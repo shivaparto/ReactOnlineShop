@@ -46,7 +46,7 @@ const AdminUsers: React.SFC = () => {
               to={`/admin/users/${user.id}`}
               activeClassName="admin-link-active"
             >
-              {user.name} sdgfsdjgf
+              {user.name}
             </NavLink>
           </li>
         ))}
